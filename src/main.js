@@ -26,10 +26,10 @@ const messages = {
   cn : {
     nav:{
       java:'Java修炼',
-      swift:'Swift修炼',
+      swift:'Andoird修炼',
       python:'Python修炼',
-      showmore:'所有课程',
-      aboutus:'关于我们',
+      showmore:'所有项目',
+      aboutus:'关于本人',
       lang:'语言',
       login:'登录',
       index:'首页',
@@ -54,7 +54,7 @@ const messages = {
   jp : {
     nav:{
       java:'Javaプラクティス',
-      swift:'Swiftの練習',
+      swift:'Androidの練習',
       python:'Pythonのプラクティス',
       showmore:'ショーモア',
       aboutus:'私達について',

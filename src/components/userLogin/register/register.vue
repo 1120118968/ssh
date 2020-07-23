@@ -160,7 +160,7 @@
                         duration:2001,
                     });
                 } else{
-                    axios.post('http://106.54.23.221:8080/users/register',{
+                    axios.post('http://localhost:8080/users/register',{
                         userName:this.username,
                         passWord:this.password
                 }).then((res) => {

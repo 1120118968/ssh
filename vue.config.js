@@ -35,21 +35,21 @@ module.exports = {
                 }
             },
             '/loginapi':{
-                target: 'http://106.54.23.221:8080/mylogin',
+                target: 'http://localhost:8080/mylogin',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/loginapi': ''
                 }
             },
             '/registerapi':{
-                target: 'http://106.54.23.221:8080/register/',
+                target: 'http://localhost:8080/register/',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/registerapi': ''
                 }
             },
             '/getallterm':{
-                target: 'http://106.54.23.221:8080/term/',
+                target: 'http://localhost:8080/term/',
                 changeOrigin: true,
             },
         },

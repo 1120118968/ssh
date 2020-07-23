@@ -17,17 +17,17 @@
                                     {{ $t('nav.swift') }}<i class="el-icon-arrow-down"></i>
                                 </a>
                                 <div class="dropdown_menu">
-                                    <a href="/series/1/episode/1">支持动画交互的 tab bar - IV</a>
-                                    <a href="/series/1/episode/1">回顾基于多级容器的依赖关系</a>
-                                    <a href="/series/1/episode/1">用户 session 的代码组织</a>
+                                    <a href="/series/1/episode/1">View</a>
+                                    <a href="/series/1/episode/1">Service</a>
+                                    <a href="/series/1/episode/1">MVC</a>
                                 </div>
                             </li>
                             <li class="dropdown mb-lg-5">
                                 <a href="/#PythonSection">{{ $t('nav.python') }}<i class="el-icon-arrow-down"></i></a>
                                 <div class="dropdown_menu">
-                                    <a href="/series/1/episode/1">支持动画交互的 tab bar - IV</a>
-                                    <a href="/series/1/episode/1">回顾基于多级容器的依赖关系</a>
-                                    <a href="/series/1/episode/1">用户 session 的代码组织</a>
+                                    <a href="/series/1/episode/1">Django</a>
+                                    <a href="/series/1/episode/1">socket</a>
+                                    <a href="/series/1/episode/1">websocket</a>
                                 </div>
                             </li>
                             <li class="mb-lg-5">
@@ -85,17 +85,17 @@
                         {{ $t('nav.java') }}
                     </a>
                     <div class="dropdown_menu">
-                        <a href="/series/1/episode/1" class="close_toggle">支持动画交互的 tab bar - IV</a>
-                        <a href="/series/1/episode/1" class="close_toggle">回顾基于多级容器的依赖关系</a>
-                        <a href="/series/1/episode/1" class="close_toggle">用户 session 的代码组织</a>
+                        <a href="/series/1/episode/1" class="close_toggle">Java EE</a>
+                        <a href="/series/1/episode/1" class="close_toggle">Java SE</a>
+                        <a href="/series/1/episode/1" class="close_toggle">Java ME</a>
                     </div>
                 </li>
                 <li class="dropdown">
                     <a href="/#SwiftSection">{{ $t('nav.swift') }}</a>
                     <div class="dropdown_menu">
-                        <a href="/series/1/episode/1" class="close_toggle">支持动画交互的 tab bar - IV</a>
-                        <a href="/series/1/episode/1" class="close_toggle">回顾基于多级容器的依赖关系</a>
-                        <a href="/series/1/episode/1" class="close_toggle">用户 session 的代码组织</a>
+                        <a href="/series/1/episode/1" class="close_toggle">Android 10</a>
+                        <a href="/series/1/episode/1" class="close_toggle">Android Studio</a>
+                        <a href="/series/1/episode/1" class="close_toggle">code</a>
                     </div>
                 </li>
                 <li>

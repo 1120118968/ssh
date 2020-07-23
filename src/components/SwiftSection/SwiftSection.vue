@@ -7,7 +7,7 @@
                     <h2 style="text-align: center; font-family: FontAwesome;font-size:40px;color:#777;line-height:1.2;font-weight: 700;">
                         <i class="fa fa-eercast fa-1x"></i>
                         <i style="">
-                            Swift修炼
+                            Android修炼
                         </i>
                     </h2>
 

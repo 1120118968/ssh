@@ -294,8 +294,8 @@
                             this.block = 0
                         }
 
-                        // course_name:'',
                         //     course_chapter_duration:'',
+                        // course_name:'',
                         //     course_chapter_name:'',
                         //     course_chapter_id:'',
                         this.course_name = res.data.data.courseY.title
