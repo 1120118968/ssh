@@ -9,7 +9,7 @@
                         </h2>
                         <i class="fa fa-heart g-color-primary" ></i>
                         <p class="g-px-100 g-mt-15 g-font-size-20 g-color-white">
-                            <strong>随处观看，随时退款</strong>
+                            <strong>随处观看，学习编程</strong>
                         </p>
                     </div>
                 </div>

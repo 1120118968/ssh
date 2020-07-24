@@ -57,7 +57,7 @@ export default {
       this.isShowEmojiPanel = false;
 
       //提交
-      this.$axios.post('http://106.54.23.221:8080/term/comment',{
+      this.$axios.post('http://localhost:8080/term/comment',{
         content:html_temp,
         term_id:this.$route.params.chapterID,
         user:{
@@ -97,7 +97,7 @@ export default {
     var temp_url = getCookie('avatar')
     this.avatar = decodeURIComponent(temp_url)
     //加载评论
-    this.$axios.get('http://106.54.23.221:8080/term/comment',{
+    this.$axios.get('http://localhost:8080/term/comment',{
       params:{
         term_id:this.$route.params.chapterID,
       }

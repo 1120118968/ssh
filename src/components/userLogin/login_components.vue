@@ -17,7 +17,7 @@
                     <div class="container">
                         <h1 style="font-weight: bold;font-size: 70px;color: #603d57">欢迎登录</h1>
                         <h1 style="font-weight: bold;font-size: 70px;color: #603d57;display:none" class="mobile_login">欢迎登录</h1>
-                        <h1 style="font-size: 45px;color: #603d57">享受自己阅读的时光吧！</h1>
+                        <h1 style="font-size: 45px;color: #603d57">享受自己的代码时光吧！</h1>
 
                         <form class="form" id="ex_form">
                             <ValidationProvider name="用户名" rules="required" v-slot="{ errors,classes}" >
@@ -143,7 +143,7 @@
                 //设置在登录状态
                 this.isLoging = true;
                 //axios
-                axios.post('http://106.54.23.221:8080/users/login',{
+                axios.post('http://127.0.0.1:8080/users/login',{
                     userName: this.account,
                     // userid: this.account,
                     passWord: this.password

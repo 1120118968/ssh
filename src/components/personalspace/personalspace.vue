@@ -338,7 +338,7 @@
                  multipartUpload ()
             },
             upload_check(){
-                this.$axios.post('http://106.54.23.221:8080/users/update',{
+                this.$axios.post('http://127.0.0.1:8080/users/update',{
                     avatar:this.tempUrl,
                     id:this.userid,
                     tel:'18890012973'
@@ -368,7 +368,7 @@
                 if(!(this.new_pwd ===  this.new_pwd_confirm)){
                     this.$message.error('两次密码输入不一致');
                 }else{
-                    this.$axios.post('http://106.54.23.221:8080/users/update',{
+                    this.$axios.post('http://127.0.0.1:8080/users/update',{
                         passWord:this.new_pwd,
                         id:this.userid,
                         tel:'18890012973'
