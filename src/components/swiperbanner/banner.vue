@@ -3,21 +3,21 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="title" data-swiper-parallax="-130%">
-                    <h3>4K</h3>
+                    <h3>Code</h3>
                 </div>
-                <div class="img-box"><img src="https://vue13.oss-cn-chengdu.aliyuncs.com/myfile/brain-left-and-right-bg%402x.jpg" style="transform:translateX(0);"></div>
+                <div class="img-box"><img src="" style="transform:translateX(0);"></div>
             </div>
             <div class="swiper-slide">
                 <div class="title" data-swiper-parallax="-130%">
-                    <h3>工匠</h3>
+                    <h3>热爱</h3>
                 </div>
-                <div class="img-box"><img src="https://vue13.oss-cn-chengdu.aliyuncs.com/myfile/aa.jpg"></div>
+                <div class="img-box"><img src=""></div>
             </div>
             <div class="swiper-slide">
                 <div class="title" data-swiper-parallax="-130%">
-                    <h3>专业</h3>
+                    <h3>编程</h3>
                 </div>
-                <div class="img-box"><img src="https://vue13.oss-cn-chengdu.aliyuncs.com/myfile/brain-left-and-right-bg%402x.jpg"></div>
+                <div class="img-box"><img src=""></div>
             </div>
         </div>
         <div class="button-prev button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 350 160 90">

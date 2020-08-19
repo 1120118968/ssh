@@ -8,13 +8,13 @@
                             <header class="text-center mb-4">
                                 <h2 class="h2 g-color-black g-font-weight-600">Let's get started</h2>
                             </header>
-                            <h2 class="h5 u-heading-v6__title g-color-gray-dark-v3 mb-4">选择订阅类型</h2>
+                            <h2 class="h5 u-heading-v6__title g-color-gray-dark-v3 mb-4">choose language</h2>
                             <div>
                                 <form class="mb-5"><div class="row"><div class="col-12 mb-4">
                                     <select class="form-control rounded-0 g-font-size-16 g-py-15" style="height: 47.58px;">
-                                        <option value="1" :selected="monthflag">按月订阅（¥59）</option>
-                                        <option value="2" :selected="yearflag">按年订阅（¥512）</option>
-                                        <option value="3" :selected="fulllifeflag">终身会员（¥1280）</option>
+                                        <option value="1" :selected="monthflag">Java</option>
+                                        <option value="2" :selected="yearflag">Android</option>
+                                        <option value="3" :selected="fulllifeflag">Python</option>
                                     </select>
                                 </div>
                                     <div class="col-12">
@@ -31,7 +31,7 @@
                                         </div>
                                         <div class="text-info mt-2 bingo" style="display: none">
                                             <div class="form-control-feedback">Bingo，你收到了终身会员
-                                                <a href="http://wuruofeng.vip/">wuruofeng</a>
+                                                <a href="http://wuruofeng.vip/">me</a>
                                                 分享的邀请码，点击【确认邀请码】查看优惠吧 :)
                                             </div>
                                         </div>
@@ -64,7 +64,7 @@
                                         <div class="col-md-8 align-self-center">
                                             <label class="form-check-inline u-check g-color-gray-dark-v5 g-font-size-13 g-pl-25 check_box">
                                                 <el-checkbox v-model="checked" class="">我已阅读并同意
-                                                    <a href="/terms-of-service" style="color: red">服务条款</a>
+                                                            <a href="/terms-of-service" style="color: red">服务条款</a>
                                                 </el-checkbox>
 <!--                                                <input type="checkbox" name="agree_tos" class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0">                                              <div class="u-check-icon-checkbox-v6 g-absolute-centered&#45;&#45;y g-left-0">-->
 <!--                                                <i class="fa fa-check" aria-hidden="true"></i>-->
@@ -133,7 +133,7 @@
                 });
             },
             chageword(){
-                $('.bingo').html('你获得了来自终身会员wuruofeng的邀请。按月订阅将获得20元阅读基金。')
+                $('.bingo').html('你获得了来自终身会员的邀请。按月订阅将获得20元阅读基金。')
             },
             toregister(){
                 if(this.checked === false){
@@ -160,7 +160,7 @@
                         duration:2001,
                     });
                 } else{
-                    axios.post('http://localhost:8080/users/register',{
+                    axios.post('http://localhost:8081/users/register',{
                         userName:this.username,
                         passWord:this.password
                 }).then((res) => {

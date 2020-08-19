@@ -110,13 +110,13 @@
                                             </span>
                                     </div>
                                     <div class="text-info mt-2 bingo" style="display: none">
-                                        <div class="form-control-feedback">Bingo，你收到了终身会员
-                                            <a href="http://wuruofeng.vip/">wuruofeng</a>
-                                            分享的邀请码，点击【确认邀请码】查看优惠吧 :)
+                                        <div class="form-control-feedback">Bingo，study hard
+                                            <a href="http://qq.com/">Me</a>
+                                            come
                                         </div>
                                     </div><br>
                                     <div class="g-width-100x">
-                                        <button type="button" class="btn u-btn-primary rounded-0 g-py-12 g-px-25" style="float: right">更新订阅</button><br>
+                                        <button type="button" class="btn u-btn-primary rounded-0 g-py-12 g-px-25" style="float: right">更新</button><br>
                                     </div>
 
 

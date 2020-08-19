@@ -77,7 +77,7 @@
                 } //icon动画样式隐藏时
             });
 
-            this.$axios.get('http://106.54.23.221:8080/course/hot/')
+            this.$axios.get('http://127.0.0.1:8080/course/hot/')
                 .then(
                     res => {
                         //console.log(res)

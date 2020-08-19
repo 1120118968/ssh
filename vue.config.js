@@ -1,5 +1,4 @@
 const webpack = require("webpack");
-
 module.exports = {
 
     configureWebpack: {
@@ -29,27 +28,28 @@ module.exports = {
     devServer: {
         proxy: {
             '/api': {
-                target: 'http://localhost:8080',
+                target: 'http://localhost:8081',
+                changeOrigin:"true",
                 pathRewrite: {
                     '^/api': 'static/mock'
                 }
             },
             '/loginapi':{
-                target: 'http://localhost:8080/mylogin',
+                target: 'http://localhost:8081/mylogin',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/loginapi': ''
                 }
             },
             '/registerapi':{
-                target: 'http://localhost:8080/register/',
+                target: 'http://localhost:8081/register/',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/registerapi': ''
                 }
             },
             '/getallterm':{
-                target: 'http://localhost:8080/term/',
+                target: 'http://localhost:8081/term/',
                 changeOrigin: true,
             },
         },

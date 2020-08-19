@@ -1,4 +1,4 @@
-// import axios from 'axios'
+import axios from 'axios'
 import { IS_MOCK_LOCAL } from '@/api/config.js'
 
 // 获取课程导航数据

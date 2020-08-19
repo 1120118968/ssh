@@ -65,7 +65,7 @@ export default {
     },
     //搜索
     getSearch(){
-      this.$axios.get('http://106.54.23.221:8080/course/search/?searchstr='+ this.searchstr_var,)
+      this.$axios.get('http://127.0.0.1:8080/course/search/?searchstr='+ this.searchstr_var,)
               .then(
                       res => {
                         this.courseList = res.data.data

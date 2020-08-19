@@ -33,7 +33,7 @@
                             <button type="button" id="login-button" @click="login" v-loading.fullscreen.lock="fullscreenLoading">登录</button>
 
                         </form>
-                        <router-link to="/join" id="register-button" style="font-size: 15px">成为会员</router-link>
+                        <router-link to="/join" id="register-button" style="font-size: 15px">加入我们</router-link>
                         <router-link to="/password/reset" id="forgot_pwd-button" style="margin-left: 20px;font-size: 15px">忘记密码</router-link>
                     </div>
 

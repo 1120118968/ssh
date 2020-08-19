@@ -6,14 +6,14 @@
                     <div class="row">
                         <div class="col-lg-12 g-mt-25">
                             <div class="text-uppercase text-center g-line-height-1_3 g-mb-20">
-                                <h2 class="g-font-size-36 mb-0">My <strong class="g-color-black">OnlineSchool</strong></h2></div>
+                                <h2 class="g-font-size-36 mb-0">My <strong class="g-color-black">all project</strong></h2></div>
                             <div class="row g-mb-40">
                                 <div class="col-md-6 g-mb-30 g-mb-0--md">
                                     <div class="g-color-white g-pa-25 g-bg-cyan">
                                         <header class="d-flex text-uppercase g-mb-40">
                                             <i class="fa fa-check-square-o align-self-center display-4 g-mr-20 g-font-size-60" ></i>
                                             <div class="g-line-height-1">
-                                                <h4 class="h5">观看总时长</h4>
+                                                <h4 class="h5">Time</h4>
                                                 <div  class="g-font-size-30" style="display: inline;">{{totally_watching_times}}
                                                 </div>
                                                 <em class="g-font-size-16">MIN</em>
@@ -144,7 +144,7 @@
             }else{
                 this.isLogin = isLogin
             }
-            this.$axios.get('http://106.54.23.221:8080/term/')
+            this.$axios.get('http://127.0.0.1:8080/term/')
                 .then(
                     res => {
                         console.log(res)

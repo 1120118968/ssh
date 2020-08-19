@@ -1,6 +1,6 @@
 /*存储状态。也就是变量*/
 const state = {
-	api:'http://127.0.0.1:8080',
+	api:'http://127.0.0.1:80',
 	username: '',
 	userID:'',
 	isLogin: false,
