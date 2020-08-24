@@ -10,6 +10,7 @@
                         </h2></div>
                         <div class="g-mb-30"><p>
                             详细请加qq：1150118968</p>
+                          <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1150118968&amp;site=qq&amp;menu=yes"><img title="点击这里给我发消息" border="0" alt="点击这里给我发消息" width="73" height="24" src="http://wpa.qq.com/pa?p=1:1150118968:1" /></a>
                         </div>
                         <address class="mb-0">
                             <div class="g-mb-30"><h4 class="h6 g-font-weight-600">Email Address</h4>

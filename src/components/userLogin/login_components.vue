@@ -4,10 +4,10 @@
             <div class="col-md-3 swiper-left">
                 <div class="swiper-container">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide"><img src="https://vue13.oss-cn-chengdu.aliyuncs.com/myfile/01-1.jpg"></div>
-                        <div class="swiper-slide"><img src="https://vue13.oss-cn-chengdu.aliyuncs.com/myfile/01-2.jpg"></div>
-                        <div class="swiper-slide"><img src="https://vue13.oss-cn-chengdu.aliyuncs.com/myfile/01-3.jpg"></div>
-                        <div class="swiper-slide"><img src="https://vue13.oss-cn-chengdu.aliyuncs.com/myfile/01-4.jpg"></div>
+                        <div class="swiper-slide"><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1598845845&amp;di=30e17353966ef0b8499976c46e81817a&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fcdn2.image.apk.gfan.com%2Fasdf%2FPImages%2F2012%2F10%2F25%2F275146_208fe9de6-aea0-47bf-b656-bf1681bf7380.jpg"></div>
+                        <div class="swiper-slide"><img src="https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1598846024&amp;di=d64ac45d1b50ee7c0263b6678f899787&amp;imgtype=jpg&amp;er=1&amp;src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201805%2F31%2F101122kyla34l99ssivlzl.jpg"></div>
+<!--                        <div class="swiper-slide"><img src="https://vue13.oss-cn-chengdu.aliyuncs.com/myfile/01-3.jpg"></div>-->
+<!--                        <div class="swiper-slide"><img src="https://vue13.oss-cn-chengdu.aliyuncs.com/myfile/01-4.jpg"></div>-->
                     </div>
 
                 </div>

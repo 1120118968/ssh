@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="g-bg-gray-light-v5" style="margin-top:100px">
+        <section class="g-bg-gray-light-v5" style="margin-top:100px" >
             <div class="container g-py-100">
                 <div class="row justify-content-center">
                     <div class="col-sm-10 col-md-9 col-lg-6">
@@ -200,7 +200,7 @@
 
 <style scoped>
 .btn:hover{
-    color: white;
+    color: whitesmoke;
 }
 .u-btn-pink:hover{
     background-color: #e81c62ad;
