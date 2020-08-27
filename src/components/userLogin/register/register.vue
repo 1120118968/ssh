@@ -64,7 +64,7 @@
                                         <div class="col-md-8 align-self-center">
                                             <label class="form-check-inline u-check g-color-gray-dark-v5 g-font-size-13 g-pl-25 check_box">
                                                 <el-checkbox v-model="checked" class="">我已阅读并同意
-                                                            <a href="/terms-of-service" style="color: red">服务条款</a>
+                                                            <a href="/terms-of-service" style="color: #ff0000">服务条款</a>
                                                 </el-checkbox>
 <!--                                                <input type="checkbox" name="agree_tos" class="g-hidden-xs-up g-pos-abs g-top-0 g-left-0">                                              <div class="u-check-icon-checkbox-v6 g-absolute-centered&#45;&#45;y g-left-0">-->
 <!--                                                <i class="fa fa-check" aria-hidden="true"></i>-->
@@ -160,7 +160,7 @@
                         duration:2001,
                     });
                 } else{
-                    axios.post('http://localhost:8081/users/register',{
+                    axios.post('http://localhost:8888/users/register',{
                         userName:this.username,
                         passWord:this.password
                 }).then((res) => {
@@ -173,7 +173,7 @@
                             this.$alert('注册成功！点击确定返回主界面', '恭喜', {
                                 confirmButtonText: '确定',
                                 callback: action => {
-                                    this.$router.push({path:'/'})
+                                    this.$router.push({path:' /'})
                                 }
                             });
                              // this.$router.push({path:'/'})

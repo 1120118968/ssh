@@ -28,28 +28,28 @@ module.exports = {
     devServer: {
         proxy: {
             '/api': {
-                target: 'http://localhost:8081',
+                target: 'http://localhost:8888',
                 changeOrigin:"true",
                 pathRewrite: {
-                    '^/api': 'static/mock'
+                    '^/api': 'http://localhost:8888'
                 }
             },
             '/loginapi':{
-                target: 'http://localhost:8081/mylogin',
+                target: 'http://localhost:8888/mylogin',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/loginapi': ''
                 }
             },
             '/registerapi':{
-                target: 'http://localhost:8081/register/',
+                target: 'http://localhost:8888/register/',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/registerapi': ''
                 }
             },
             '/getallterm':{
-                target: 'http://localhost:8081/term/',
+                target: 'http://localhost:8888/term/',
                 changeOrigin: true,
             },
         },

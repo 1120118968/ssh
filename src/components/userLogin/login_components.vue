@@ -113,14 +113,14 @@
                     this.fullscreenLoading = false;
                 }, 1000);
 
-                // if(this.account!='879932318@qq.com'){
-                //     this.$message({
-                //         showClose: true,
-                //         message: '错了哦，账户信息填写错误!',
-                //         type: 'error'
-                //     });
-                //     return
-                // }
+                if(this.account!=='admin'){
+                    this.$message({
+                        showClose: true,
+                        message: '错了哦，账户信息填写错误!',
+                        type: 'error'
+                    });
+                    return
+                }
                 // if(this.account!='' && this.password!=''){
                 //     this.$message({
                 //         showClose: true,
@@ -133,22 +133,19 @@
             },
             //登录请求
             toLogin(){
-                const self = this
-                // let loginParam = {
-                //     userName: this.account,
-                //     // userid: this.account,
-                //     passWord: this.password
-                // }
-                //console.log('12321321:'+loginParam.userid)
+
                 //设置在登录状态
                 this.isLoging = true;
                 //axios
-                axios.post('http://127.0.0.1:8080/users/login',{
+                axios.post('http://127.0.0.1:8888/users/login',{
                     userName: this.account,
                     // userid: this.account,
                     passWord: this.password
                 }).then( (res) => {
                     console.log(res);
+                    console.log(res.data().flag)
+                    console.log(res.data.flag)
+                    console.log(res.data.code)
                     if (res.data.code === 1) {
                         let expireDays = 1000 * 60 * 60 * 24 * 15;
                         //
