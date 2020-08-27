@@ -143,21 +143,20 @@
                     passWord: this.password
                 }).then( (res) => {
                     console.log(res);
-                    console.log(res.data().flag)
-                    console.log(res.data.flag)
-                    console.log(res.data.code)
-                    if (res.data.code === 1) {
+                   console.log("debug")
+                  console.log(res.status)
+                    if (res.status === 200) {
                         let expireDays = 1000 * 60 * 60 * 24 * 15;
                         //
                         //登录成功后
                         console.log("登录成功！")
 
-                        let username = res.data.data.user.userName
-                        let totally_watching_num = res.data.data.user.totally_watching_num
-                        let totally_watching_times = res.data.data.user.totally_watching_times
-                        let exp =  res.data.data.user.exp
-                        let avatar = res.data.data.user.avatar
-                        let userid = res.data.data.user.id
+                        let username = res.data.userName
+                        let totally_watching_num = res.data.totally_watching_num
+                        let totally_watching_times = res.data.totally_watching_times
+                        let exp =  res.data.exp
+                        let avatar = res.data.avatar
+                        let userid = res.data.id
                         let isLogin = true
                         let avatar_code = decodeURIComponent(avatar)
                         // this.$store.state.username = this.$store.dispatch('updateUserInfo',obj)
@@ -182,7 +181,7 @@
                         // self.$router.push({path: '/'})
                         window.location.assign('/')
                     } else {
-                        console.log(res);
+                     //   console.log(res);
                         this.$message({
                             showClose: true,
                             message: '用户名或密码填写错误！',
